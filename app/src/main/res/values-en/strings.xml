@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ming的小铺</string>
+    <string name="LoginBtn">Log in</string>
+    <string name="LogoutBtn">Log out</string>
+    <string name="Password">Password</string>
+    <string name="SignupBtn">Register</string>
+    <string name="UserNotExist">Username or password error, please try again later.</string>
+    <string name="Username">Username</string>
+    <string name="Welcome">, Welcome!</string>
+    <string name="LatestNews">Latest News</string>
+    <string name="Categories">Categories</string>
+    <string name="More">More</string>
+</resources>

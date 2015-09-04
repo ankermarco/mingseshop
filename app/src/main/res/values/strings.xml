@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ming的小铺</string>
+    <string name="Username">用户名</string>
+    <string name="Password">密码</string>
+    <string name="LoginBtn">登陆</string>
+    <string name="SignupBtn">注册</string>
+    <string name="LogoutBtn">登出</string>
+    <string name="Welcome">，欢迎光临！</string>
+    <string name="UserNotExist">该用户不存在，请确认您的用户名或密码后再次尝试。</string>
+    <string name="LatestNews">小铺新闻</string>
+    <string name="Categories">分类</string>
+    <string name="More">更多</string>
+</resources>

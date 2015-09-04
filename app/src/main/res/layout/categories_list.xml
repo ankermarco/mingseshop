@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome"
+        android:textSize="25sp"
+        android:layout_toRightOf="@+id/txtuser"
+        android:layout_toEndOf="@+id/txtuser" />
+
+    <!-- Latest News-->
+    <TextView
+        android:id="@+id/txtlatestnews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LatestNews"
+        android:layout_below="@+id/txtuser"/>
+
+    <!-- Categories -->
+    <TextView
+        android:id="@+id/txtcat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Categories"
+        android:layout_below="@+id/txtlatestnews"/>
+
+    <!-- Log out button-->
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/LogoutBtn" />
+
+</RelativeLayout>
