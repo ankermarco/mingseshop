@@ -10,4 +10,5 @@
     <string name="LatestNews">小铺新闻</string>
     <string name="Categories">分类</string>
     <string name="More">更多</string>
+    <string name="title_activity_products_list">商品列表</string>
 </resources>
